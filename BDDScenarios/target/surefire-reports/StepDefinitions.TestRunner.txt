@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 80.439 s <<< FAILURE! - in StepDefinitions.TestRunner
+Validate J. P. Morgan logo is displayed on homepage #3(This feature is to test J. P. Morgan home page)  Time elapsed: 30.955 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'HP', ip: '192.168.29.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\karteek\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3b390c1c72b9bf094898c979ba464205
+
